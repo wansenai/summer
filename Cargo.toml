@@ -3,5 +3,5 @@ members = [
     "kernel",
     "net",
     "protocol",
-    "device",
+    "device/microbitv2"
 ]

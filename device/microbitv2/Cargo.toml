@@ -1,0 +1,15 @@
+[package]
+name = "microbitv2"
+version = "0.1.0"
+authors = ["James Zow <Jameszow@163.com>"]
+edition = "2021"
+
+[dependencies]
+cortex-m-rt = "0.7.0"
+rtt-target = { version = "0.3.1", features = ["cortex-m"] }
+panic-rtt-target = { version = "0.1.2", features = ["cortex-m"] }
+microbit-v2 = "0.13.0"
+
+nb = "1.0.0"
+heapless = "0.7.10"
+embedded-hal = "0.2.6"
